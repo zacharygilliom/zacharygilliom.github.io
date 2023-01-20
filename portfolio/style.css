@@ -4,7 +4,17 @@ html, body, div {
   border:0 none;
 }
 
-#container {
+#header {
   text-align: center;
+  background-color: #264653;
+  color: #FFFFFF;
+  font-size: 2.5em;
+}
+
+#content {
+  text-align: center;
+}
+
+#container {
   margin: 0 auto;
 }
