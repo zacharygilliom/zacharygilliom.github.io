@@ -2,11 +2,12 @@ html, body, div {
   margin:0;
   padding:0;
   border:0 none;
+  background-color: #293241;
 }
 
 #header {
   text-align: center;
-  background-color: #264653;
+  /*background-color: #264653;*/
   color: #FFFFFF;
   font-size: 2.1em;
 }
