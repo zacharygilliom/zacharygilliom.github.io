@@ -1,10 +1,9 @@
-html, body, div {
+html, body {
   margin:0;
   padding:0;
   border:0 none;
   background-color: #293241;
 }
-
 #header {
   text-align: center;
   /*background-color: #264653;*/
@@ -13,10 +12,38 @@ html, body, div {
 }
 
 #content {
+  width: 90%;
   text-align: center;
   font-size: 1.3em;
+  margin: auto;
 }
 
 #container {
   margin: 0 auto;
 }
+
+.project-details{
+  padding: 10px;
+  height: 150px;
+}
+
+.left {
+  width: 25%;
+  background-color: #3D5A80;
+}
+.left > a {
+  color: #FFFFFF;
+}
+
+.right {
+  font-size: .85em;
+  width: 70%;
+  background-color: #98C1D9;
+  text-align: left;
+}
+
+.project{
+  display: flex;
+  flex-direction: row;
+}
+
