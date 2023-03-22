@@ -27,23 +27,50 @@ html, body {
   height: 150px;
 }
 
+
+
 .left {
-  width: 25%;
   background-color: #3D5A80;
+  width: 25%;
+  box-shadow: 4px 3px 8px 1px #14213D;
+  -webkit-box-shadow: 4px 3px 8px 1px #14213D;
 }
 .left > a {
   color: #FFFFFF;
+  text-align: center;
 }
 
 .right {
   font-size: .85em;
-  width: 70%;
+  width: 75%;
   background-color: #98C1D9;
   text-align: left;
+  box-shadow: 4px 3px 8px 1px #14213D;
+  -webkit-box-shadow: 4px 3px 8px 1px #14213D;
 }
 
 .project{
   display: flex;
   flex-direction: row;
 }
+
+.project-link-right {
+  width: 90%;
+  background-color: #3D5A80;
+}
+.project-link-right > a {
+  color: #FFFFFF;
+}
+
+.project-link-left {
+  width: 10%;
+  height:100%;
+  background-color: #E07A5F;
+}
+
+.linked {
+  display: flex;
+  flex-direction: row;
+}
+
 
